@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 颜色 -->
+    <solid android:color="@color/disabled" />
+    <!-- 边距 -->
+    <padding
+        android:left="@dimen/blue_button_padding"
+        android:right="@dimen/blue_button_padding"
+        />
+    <!-- 圆角 -->
+    <corners android:radius="@dimen/blue_button_radius" />
+</shape>

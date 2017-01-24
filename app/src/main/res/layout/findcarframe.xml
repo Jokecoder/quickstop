@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+       <LinearLayout
+           android:orientation="vertical"
+           android:background="@drawable/regist_bcg"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:paddingBottom="5dp"
+               android:layout_height="150dp">
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_height="match_parent">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:text="车位位置："
+                       android:gravity="right"
+                       android:textSize="20dp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_weight="2"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginLeft="20dp"
+                       android:text="中国石油大学"
+                       android:id="@+id/location_order"
+                       android:textSize="20dp"
+                       android:textColor="#000000"
+                       android:layout_gravity="center_vertical"
+                       android:layout_width="match_parent"
+                       android:layout_weight="1"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_height="match_parent">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:text="详细："
+                       android:gravity="right"
+                       android:textSize="20dp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_weight="2"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginLeft="20dp"
+                       android:text="中国石油大学"
+                       android:id="@+id/detail_order"
+                       android:textSize="20dp"
+                       android:textColor="#000000"
+                       android:layout_gravity="center_vertical"
+                       android:layout_width="match_parent"
+                       android:layout_weight="1"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_weight="1"
+                   android:orientation="horizontal"
+                   android:layout_height="match_parent">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:text="价格/h："
+                       android:gravity="right"
+                       android:textSize="20dp"
+                       android:layout_gravity="center_vertical"
+                       android:layout_weight="2"
+                       android:layout_height="wrap_content" />
+                   <TextView
+                       android:layout_marginLeft="20dp"
+                       android:text="中国石油大学"
+                       android:textSize="20dp"
+                       android:id="@+id/price_order"
+                       android:textColor="#000000"
+                       android:layout_gravity="center_vertical"
+                       android:layout_width="match_parent"
+                       android:layout_weight="1"
+                       android:layout_height="wrap_content" />
+               </LinearLayout>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:background="#d7d6d6"
+               android:layout_height="1dp">
+
+           </LinearLayout>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:layout_height="match_parent">
+            <Button
+                android:text="预定"
+                android:id="@+id/orderButton"
+                android:textColor="#ffffff"
+                android:layout_width="230dp"
+                android:textSize="20dp"
+                android:background="@drawable/orderbutton"
+                android:gravity="center"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+</LinearLayout>

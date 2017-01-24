@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">快停</string>
+    <string name="toolbar_publish_list_title">我的车位</string>
+    <string name="toolbar_publish_list_add">添加</string>
+    <string name="toolbar_publish_add_title">添加车位</string>
+    <string name="toolbar_publish_add_preserve">保存</string>
+    <string name="toolbar_publish_detail_title">车位详情</string>
+    <string name="toolbar_publish_detail_change">修改</string>
+    <string name="toolbar_publish_change_title">修改车位信息</string>
+    <string name="toolbar_publish_change_makesure">确定</string>
+    <string name="text_publish_add_location_search">搜索</string>
+    <string name="text_publish_add_repeat">重复</string>
+    <string name="text_publish_add_location">位置</string>
+    <string name="text_publish_add_price">价格</string>
+    <string name="text_publish_add_discribe">描述</string>
+    <string name="hint_publish_add_discribe">请在此输入对车位的具体描述及详细位置信息，以便其他用户在使用您的车位时能够快速找到您的车位!!</string>
+    <string name="hint_publish_add_location_search">请输入车位的大体位置</string>
+    <string name="text_publish_add_location_sure">确认这个位置</string>
+    <string name="choice_all">全选</string>
+    <string name="choice_monday">星期一</string>
+    <string name="choice_tuesday">星期二</string>
+    <string name="choice_wednesday">星期三</string>
+    <string name="choice_thursday">星期四</string>
+    <string name="choice_friday">星期五</string>
+    <string name="choice_saturday">星期六</string>
+    <string name="choice_sunday">星期天</string>
+
+    <string name="dialog_title_alert">提示</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancle">取消</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main22">Main22Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">PictureActivity</string>
+    <string name="title_bar_txt">个人信息</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+
+    <string name="title_activity_findcar_order">FindcarOrderActivity</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#44d7eb</color>
+    <color name="colorListDivider">#f4efef</color>
+    <color name="colorBackgroundList">#e0dede</color>
+    <color name="colorBackgroundItem">#ffffff</color>
+    <color name="colorTextBlack">#000000</color>
+    <color name="colorEditWhite">#ffffff</color>
+    <color name="colorToolbarWhite">#ffffff</color>
+    <color name="colorToolbarBlack">#000000</color>
+    <color name="colorPressedGray">#eaeaee</color>
+    <color name="colorBackGroundGray">#bfbfc2</color>
+    <color name="colorBackGroundBlue">#5193cc</color>
+    <color name="colorButtonBlue">#33a8de</color>
+    <color name="colorBackgroundGreen">#0ada29</color>
+
+    <color name="colorTitleTextBlue">#6bb0e9</color>
+
+    <!--liangjianbufen-->
+    <color name="black">#000000</color>
+    <color name="red">#ff5b5b</color>
+    <color name="color_white">#ffffff</color>
+    <color name="back_a">#aaacac</color>
+    <color name="entrance_bcg">#f9f9fb</color>
+    <color name="code_get_edt">#ffffff</color>
+    <color name="service_clear">#3ba0fe</color>
+    <!--按钮颜色-->
+    <color name="disabled">#FFB5B5B5</color>
+    <color name="normal">#3ba0fe</color>
+    <color name="selected">#3871ce</color>
+    <color name="blue_button_stroke">#370ea4</color>
+
+
+</resources>

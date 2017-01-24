@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/nextLineBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下一条路径" />
+
+            <Button
+                android:id="@+id/navi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="实时导航" />
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
